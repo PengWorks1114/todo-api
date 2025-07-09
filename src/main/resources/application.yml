@@ -1,11 +1,11 @@
 spring:
-datasource:
-url: jdbc:postgresql://localhost:5432/todo_db
-username: postgres
-password: 0000
-driver-class-name: org.postgresql.Driver
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todo_db
+    username: postgres
+    password: 0000
+    driver-class-name: org.postgresql.Driver
 
-jpa:
+  jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
